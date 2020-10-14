@@ -1,0 +1,53 @@
+<HTML>
+
+<HEAD>
+<TITLE>Newborn Registration Form</TITLE>
+<style type="text/css">
+
+.textClass {
+	font-size: 10px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.buttonClass {
+	font-size: 10px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}</style>
+</HEAD>
+
+<BODY BGCOLOR="#008080" TEXT=WHITE>
+<CENTER>
+<IMG SRC="Logo.gif" WIDTH=450 HEIGHT=75 ALT="St. Marys of Northland Pines">
+<H1><FONT FACE="Arial,Helvetica">Newborn Registration</FONT></H1>
+</CENTER>
+<form name="newborn" action="mailto:brockton@stmarysnp.com" method="post">
+<P>Date:&nbsp;<input type="Text" name="formdate" class="textClass" size="12" maxlength="10" value="mm/dd/yyyy"></P>
+<P>1) Infant's first name: <input type="Text" class="textClass" name="first" size="30" maxlength="50" value=""> Last: <input type="Text" class="textClass" name="last" size="30" maxlength="50" value=""></P>
+<P>2) Medical Record #: <input type="Text" class="textClass" name="medrecno" size="10" maxlength="10" value=""></P>
+<P>3) Date of birth: <input type="Text" class="textClass" name="dob" size="12" maxlength="10" value="mm/dd/yyyy"></P>
+<P>4) Birth weight : <input type="Text" class="textClass" name="bwgt" size="3" maxlength="3" value=""></P>
+<P>5) APGAR score  : <input type="Text" class="textClass" name="apgar" size="6" maxlength="6" value=""></P>
+<P>6) Mother's first name: <input type="Text" class="textClass" name="mfirst" size="30" maxlength="50" value=""> Last: <input type="Text" class="textClass" name="mlast" size="30" maxlength="50" value=""></P>
+<P>7) Father's first name : <input type="Text" class="textClass" name="ffirst" size="30" maxlength="50" value=""> Last: <input type="Text" name="flast" size="30" maxlength="50" value=""></P>
+<P>
+<TABLE><TR>
+<TD VALIGN=TOP WIDTH=130>
+   8) Physician (check all that apply:) <select name="doctor" size="4" class="textClass" multiple>
+		<option value="1">Dr. Warren Albert</option>
+		<option value="2">Dr. Maria Alvarez</option>
+		<option value="3">Dr. Karen Brinkman</option>
+		<option value="4">Dr. Michael Kerry</option>
+		<option value="5">Dr. Chad Nichols</option>
+		<option value="6">Dr. Karen Paulson</option>
+		<option value="7">Dr. Tai Webb</option>
+		<option value="99">Other</option></select>
+</TD>
+<TD VALIGN=TOP>
+	<input type="submit" class="buttonClass" name="Register" value="Register">&nbsp;<input type="reset" class="buttonClass" name="Cancel" value="Cancel">
+</TD>
+</TR></TABLE></P>
+</form>
+
+</BODY>
+</HTML>

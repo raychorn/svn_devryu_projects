@@ -1,0 +1,1 @@
+<cflocation url="http://rabid.contentopia.net/blog">
